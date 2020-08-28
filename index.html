@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Flexbox - Freelancer Website</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <script
+      src="https://kit.fontawesome.com/1609b34e67.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--navigation starts-->
+    <nav id ="main-navigation">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact Us</a>
+    </nav>
+    <!--navigation ends-->
+    <!--hero-banner starts-->
+    <div class="hero">
+      <div class="hero-content">
+      <h1>Freelance Web Developer</h1>
+       <p class="location"> <i class="fas fa-map-marker-alt"></i>  Bloomfield Hills, Michigan</p>
+        <a class="button" href="#">Contact Us Here</a>
+      </div>
+      <!--end of hero content-->
+    </div>
+    <!--hero-banner ends-->
+    <!--service section-begins-->
+    <div class="container">
+      <main class="services">
+         <h2>My Services</h2>
+       <div class="services-container">
+          <div class="service">
+          <h3>Web Design</h3>
+          <div class="icons"><i class="fas fa-pen-nib"></i></div>
+          <!--end of icons-->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            culpa, ratione consectetur fuga voluptas repellendus ipsam
+           
+          </p>
+        </div>
+        <!--end of service 1-->
+        <div class="service">
+          <h3>App Developement</h3>
+          <div class="icons"><i class ="fab fa-android"></i> <i class="fab fa-apple"></i></div>
+          <!--end of icons-->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            culpa, ratione consectetur fuga voluptas repellendus ipsam
+         
+          </p>
+        </div>
+        <!--end of service2-->
+        <div class="service">
+          <h3>Social Media</h3>
+          <div class="icons"> <i class="fab fa-twitter"></i> <i class="fab fa-facebook"></i></div>
+          <!--end of icons-->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            culpa, ratione consectetur fuga voluptas repellendus ipsam
+         
+          </p>
+        </div>
+        <!--end of service3-->
+      </main>
+  
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" class="form">
+          <div class="form-container">
+            <div class="field">
+              <label>Name:</label>
+              <input type="text" placeholder="name" />
+            </div>
+            <!--end of field-->
+            <div class="field">
+              <label>Phone Number:</label>
+              <input type="tel" placeholder="Phone Number" />
+            </div>
+            <!--end of field-->
+            <div class="field w-100">
+              <label>Email:</label>
+              <input type="mail" placeholder="Email" />
+            </div>
+            <!--end of field-->
+            <div class="field w-100">
+              <label>Message:</label>
+              <textarea cols="30" rows="3"></textarea>
+            </div>
+            <!--end of field-->
+        
+            <!--end of submit-form-button-->
+          </div>
+              <div class="submit-form">
+              <input type="submit" class="button" value="send" />
+            </div>
+          <!--end of form-container-->
+        </form>
+      </section>
+    </div>
+    </div>
+    <!--service section-ends-->
+    <div class="copyright">
+             <p class="text-white text-capitalize"><small>copyright &copy; <span id="year"></span> &nbsp; Freelancer demo, all rights reserved, Designed by Rhakagi Wahhab</small></p>
+    
+    </div>
+<script src="js/jquery-3.3.1.js"></script>
+<script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+</script>
+      
+
+
+  </body>
+</html>
